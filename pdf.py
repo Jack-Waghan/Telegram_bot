@@ -31,24 +31,16 @@ def ppspdf_menu(update, context):
   
 ######################################### BEEE ##########################################################################
 def beeeunit1_menu(update, context):
-  query = update.callback_query
-  query.answer()
-  query.edit_message_text(context.bot.send_document(update.effective_chat.id, document=('https://jackwaghan.ml/BEEE/BEEE-UNIT-1.pdf')))
+  context.bot.send_document(update.effective_chat.id, document=('https://jackwaghan.ml/BEEE/BEEE-UNIT-1.pdf'))
   
 def beeeunit2_menu(update, context):
-  query = update.callback_query
-  query.answer()
-  query.edit_message_text(context.bot.send_document(update.effective_chat.id, document=('https://jackwaghan.ml/BEEE/BEEE-UNIT-2.pdf')))
+  context.bot.send_document(update.effective_chat.id, document=('https://jackwaghan.ml/BEEE/BEEE-UNIT-2.pdf'))
   
 def beeeunit3_menu(update, context):
-  query = update.callback_query
-  query.answer()
-  query.edit_message_text(context.bot.send_document(update.effective_chat.id, document=('https://jackwaghan.ml/BEEE/BEEE-UNIT-3.pdf')))
+  context.bot.send_document(update.effective_chat.id, document=('https://jackwaghan.ml/BEEE/BEEE-UNIT-3.pdf'))
   
 def beeeunit4_menu(update, context):
-  query = update.callback_query
-  query.answer()
-  query.edit_message_text(context.bot.send_document(update.effective_chat.id, document=('https://jackwaghan.ml/BEEE/BEEE-UNIT-4.pdf')))  
+ context.bot.send_document(update.effective_chat.id, document=('https://jackwaghan.ml/BEEE/BEEE-UNIT-4.pdf'))
     
  
 ######################################### MATHS ##########################################################################
